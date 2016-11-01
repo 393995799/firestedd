@@ -1,0 +1,1013 @@
+body {
+  position: relative;
+}
+.indexwrap {
+  width:1200px;
+  margin: 0 auto;
+}
+.eddpublic-headersearch-module {
+  padding-top: 36px;
+  height: 48px;
+  border-top: 1px solid #EBEBEB;
+
+}
+.eddpublic-headersearch-module .logo {
+  float: left;
+  width: 180px;
+  height: 48px;
+}
+.eddpublic-headersearch-module .search {
+  float: left;
+  width:558px;
+  height: 45px;
+  margin-left: 118px;
+  background: url(../images/search.png) 0 2px no-repeat;
+}
+.eddpublic-headersearch-module .search input {
+  float: left;
+  width:480px;
+  height: 37px;
+  margin: 5px 10px;
+  outline: 0;
+  border: 0;
+}
+.eddpublic-headersearch-module .search .searchbtn {
+  float: left;
+  width: 53px;
+  height: 41px;
+  cursor: pointer;
+  cursor: hand;
+}
+.eddpublic-headersearch-module ul {
+  float: right;
+  height: 24px;
+  padding-top: 15px;
+}
+.eddpublic-headersearch-module ul li {
+  float: left;
+  margin-right: 10px;
+}
+.eddpublic-headersearch-module ul li a {
+  display: block;
+  padding-left:28px;
+  height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.eddpublic-headersearch-module ul .cart a {
+  background: url(../images/common.png) no-repeat 0 -196px;
+}
+.eddpublic-headersearch-module ul .cart a b {
+  color: #ff5418;
+}
+.eddpublic-headersearch-module ul .order a {
+  background: url(../images/common.png) no-repeat 0 -301px;
+}
+.eddpublic-headersearch-module ul .my a {
+  background: url(../images/common.png) no-repeat 0 -266px;
+}
+.eddpublic-headernav-module {
+  position: relative;
+}
+.eddpublic-headernav-module .indexwrap{
+  position: relative;
+  margin-top: 30px;
+  height: 46px;
+  line-height: 46px;
+  background: #214c90;
+  border-radius: 5px;
+}
+.eddpublic-headernav-module .list {
+    margin: 0;
+    height: 46px;
+    padding: 0 5px 0 177px;
+    background: url(../images/nav_bg.jpg) no-repeat 53px 0;
+}
+.eddpublic-headernav-module .list li {
+  float: left;
+  position: relative;
+}
+.eddpublic-headernav-module .list li a {
+  position: relative;
+  display: block;
+  padding: 0 30px;
+  font-size:16px;
+  color: #fff;
+}
+.eddpublic-headernav-module .list .eon {
+  background: #325b9b;
+}
+.eddpublic-headernav-module .list li a:hover {
+  background: #325b9b;
+}
+.eddpublic-headernav-module .list .authorsys{
+  float: right;
+}
+.eddpublic-headernav-module .list .authorsys a{
+  padding: 0 0 0 15px;
+  font-size: 14px;
+}
+.eddpublic-headernav-module .list .charge{
+  float: right;
+}
+.eddpublic-headernav-module .list .charge a{
+  font-size: 14px;
+  padding: 0 15px;
+}
+.eddpublic-headernav-module .list .authorsys a:after {
+    content: '';
+    line-height: 15px;
+    height: 15px;
+    width: 1px;
+    background-color: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.eddpublic-headernav-module .list .authorsys a:hover {
+  color: #eee;
+  background: #214c90;
+}
+.eddpublic-headernav-module .list .charge a:hover {
+  color: #eee;
+  background: #214c90;
+}
+.eddpublic-headernav-module .list .ddreader img {
+  position: absolute;
+  top: -18px;
+  right:0;
+}
+.eddsubnav {
+  display: none;
+  position: absolute;
+  top:46px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #fff;
+  box-shadow: 0 5px 5px rgba(0,0,0,.2);
+}
+.eddsubnav .wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 240px;
+  color: #ccc;
+}
+.eddsubnav .wrap a {
+  padding: 0 10px;
+  color: #333;
+}
+.eddindex-class-focus-module {
+  position: relative;
+  padding-top: 10px;
+  height:420px;
+}
+.eddindex-class-focus-module .classify-wrap {
+  zoom:1;
+}
+.eddindex-class-focus-module .classify-module {
+  width: 190px;
+  float: left;
+
+}
+.eddindex-class-focus-module .classify-module dl {
+  position: relative;
+  width: 190px;
+  border: 1px solid #687280;
+}
+.eddindex-class-focus-module .classify-module dl dt {
+  position: relative;
+  padding-left: 36px;
+  height: 33px;
+  line-height: 33px;
+  color: #4e535b;
+  background: #f0f3f5;
+
+}
+.eddindex-class-focus-module .classify-module dl dd  {
+  position: relative;
+  background: url(../images/index_class_arrow.png) no-repeat 169px 15px;
+}
+.eddindex-class-focus-module .classify-module dl dd a {
+  display: block;
+  padding: 2px 2px 2px 72px;
+  height: 31px;
+  line-height: 31px;
+  color: #4e535b;
+
+}
+.eddindex-class-focus-module .classify-module dl .odd {
+  background: #f0f3f5;
+}
+.eddindex-class-focus-module .classify-module dl dd .wy {
+  background: url(../images/index_class_icon.png) no-repeat 36px -26px;;
+}
+.eddindex-class-focus-module .classify-module dl dd .jg {
+  background: url(../images/index_class_icon.png) no-repeat 36px 9px;
+}
+.eddindex-class-focus-module .classify-module dl dd .sk {
+  background: url(../images/index_class_icon.png) no-repeat 36px -62px;
+}
+.eddindex-class-focus-module .classify-module dl dd .et {
+  background: url(../images/index_class_icon.png) no-repeat 36px -98px;
+}
+.eddindex-class-focus-module .classify-layer {
+  display: none;
+  position: absolute;
+  left: 192px;
+  top: 10px;
+  width: 320px;
+  padding: 20px 0 20px 25px;
+  border: 1px solid #687280;
+}
+.eddindex-class-focus-module .classify-layer li {
+  position: relative;
+  float: left;
+  width: 52px;
+  height: 84px;
+  padding: 0 20px 10px 5px;
+}
+.eddindex-class-focus-module .classify-layer li p {
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #4e535b;
+  overflow: hidden;
+}
+.eddindex-class-focus-module .classify-layer li .cover {
+  position: relative;
+  width: 52px;
+  height: 60px;
+}
+.eddindex-class-focus-module .classify-layer li .cover .one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 60px;
+  box-shadow: 0 0 4px #c8c8c8;
+  z-index: 2;
+  overflow: hidden;
+}
+.eddindex-class-focus-module .classify-layer li .cover .two {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 45px;
+  height: 50px;
+  box-shadow: 0 0 4px #c8c8c8;
+  z-index: 1;
+  overflow: hidden;
+}
+.eddindex-class-focus-module .focus-module {
+  position: relative;
+  width: 998px;
+  height: 420px;
+  float: right;
+  overflow: hidden;
+}
+.eddindex-class-focus-module .focus-module ul li {
+  position: relative;
+  float: left;
+}
+.eddindex-class-focus-module .focus-module ul li img {
+  display: block;
+  float: left;
+  width: 998px;
+}
+.eddindex-class-focus-module .focus-module .dot {
+  position: absolute;
+  left: 449px;
+  bottom: 20px;
+  width: 100px;
+  margin: 0 auto;
+}
+.eddindex-class-focus-module .focus-module .dot li {
+  width: 10px;
+  height: 10px;
+  margin: 0 10px 0 0;
+  float: left;
+  border-radius: 50%;
+  background: #bbb;
+  z-index: 2;
+}
+.eddindex-class-focus-module .focus-module .dot .active {
+  background: #1f2;
+}
+.eddindex-content  {
+  padding-top: 10px;`
+}
+.index-content-left {
+  position: relative;
+  float: left;
+  width: 880px;
+  overflow: hidden;
+}
+
+.indexbook-block  .index-subnav{
+  position: relative;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 2px solid #ebebeb;
+}
+.indexbook-block  .index-subnav li {
+  position: relative;
+  float: left;
+  height: 42px;
+  line-height: 42px;
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+ .indexbook-block  .index-subnav li a {
+  color: #000;
+}
+ .indexbook-block  .index-subnav p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+.index-content-left .indexbook-block .content {
+  position: relative;
+  display: block;
+  width: 900px;
+  margin-top: 20px;
+}
+ .index-content-left  .idexbigcell {
+  height: 301px;
+  overflow: hidden;
+}
+ .index-content-left  .bookcover {
+  position: relative;
+  float: left;
+  width: 188px;
+  height: 269px;
+  padding: 10px 10px 20px;
+  background: url(../images/shadow_188_269.png) 2px 6px no-repeat;
+}
+ .index-content-left .indexbook-block  .bookcover a {
+  position: relative;
+  display: block;
+}
+.index-content-left   .bookcover a img {
+  width: 188px;
+  height: 269px;
+}
+.index-content-left  .bookcover a .promotion-label {
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 68px;
+  height: auto;
+}
+ .index-content-left .bookinfo {
+  position: relative;
+  width: 593px;
+  float: left;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+ .index-content-left .bookinfo .title {
+  height: 22px;
+  overflow: hidden;
+}
+ .index-content-left .bookinfo .title  .name {
+  float: left;
+  max-width: 390px;
+  padding-right: 10px;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+ .index-content-left  .bookinfo .title .elabel {
+    float: left;
+    margin: 3px 0 0;
+}
+.index-content-left .bookinfo .title .elabel span{
+  padding: 0.1em;
+  color: #fff;
+  background: #739cde;
+  border-radius: 3px;
+}
+.index-content-left  .bookinfo .title .star {
+  float: left;
+  margin-top: 6px;
+  padding: 0 15px;
+}
+.index-content-left  .bookinfo .title .star i {
+  display: block;
+  float: left;
+  width: 10px;
+  height: 10px;
+  background: url(../images/starlevel.jpg) left top no-repeat;
+}
+.index-content-left .bookinfo .title .commentnum {
+  margin-top: 3px;
+  color: #999;
+}
+.index-content-left  .bookinfo .authorprice {
+  float: left;
+  padding: 20px 0 30px;
+}
+.index-content-left  .bookinfo .authorprice .author {
+  float: left;
+  padding:  0 20px 0 0;
+  font-size: 14px;
+  color: #666;
+
+}
+.index-content-left   .bookinfo .authorprice .price {
+  float: left;
+  font-size: 14px;
+  color: #ccc;
+}
+.index-content-left  .bookinfo .authorprice .price span {
+  color: #ed3e01;
+}
+.index-content-left  .bookinfo .authorprice .price .original {
+  color: #999;
+  text-decoration: line-through;
+}
+.index-content-left   .bookinfo .des {
+  height: 176px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #444;
+  overflow: hidden;;
+  text-overflow: ellipsis;
+}
+.idexsmalcell {
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 192px;
+  padding: 0 0 10px;
+}
+.idexsmalcell .cover {
+position: relative;
+float: left;
+width: 114px;
+height: 162px;
+background: url(../images/shadow_114_162.png) 3px 6px no-repeat;
+padding: 10px 10px 20px;
+}
+ .idexsmalcell .cover img {
+  width: 114px;
+  height: 162px;
+}
+ .idexsmalcell .cover .hotlabel {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+ .idexsmalcell .bookinfo {
+  position: relative;
+  float: left;
+  width: 143px;
+  height: 152px;
+  padding: 10px 0;
+  overflow: hidden;
+}
+ .idexsmalcell .bookinfo .title{
+font-size: 14px;
+line-height: 18px;
+height: 36px;
+overflow: hidden;
+}
+ .idexsmalcell .bookinfo .author {
+  height: 22px;
+  padding-top: 6px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #666;
+  overflow: hidden;
+}
+.idexsmalcell .bookinfo .star-num {
+  padding-top: 10px;
+}
+ .idexsmalcell .bookinfo .star-num .star {
+  float: left;
+
+}
+ .idexsmalcell .bookinfo .star-num .star i {
+  display: block;
+  float: left;
+  margin-top: 3px;
+  width: 10px;
+  height: 10px;
+  background: url(../images/starlevel.jpg) left top no-repeat;
+}
+ .idexsmalcell .bookinfo .star-num .nums {
+  float: left;
+  color: #666;
+}
+.idexsmalcell .bookinfo .price {
+  padding: 5px 0;
+  font-size: 12px;
+}
+.idexsmalcell .bookinfo .price .now {
+  color: #ed3e01;
+}
+.idexsmalcell .bookinfo .des {
+  height: 36px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+ .indexebookarrow {
+  position: absolute;
+  top: 490px;
+  left: 0;
+  width: 870px;
+  margin: 0 auto;
+  height: 20px;
+}
+  .indexebookarrow .arrow {
+  margin-left: 50%;
+}
+  .indexebookarrow .inner {
+margin-left: -38px;
+}
+ .indexebookarrow .left {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/index_page.png) 0 -110px no-repeat;
+}
+ .indexebookarrow .right {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background: url(../images/index_page.png) 0 -170px no-repeat;
+}
+ .indexebookarrow i {
+  display: block;
+  float: left;
+  margin-top: 7px;
+  margin-right: 6px;
+  width: 6px;
+  height: 6px;
+  background: #999;
+  border-radius: 50%;
+}
+
+/* 右栏布局样式 */
+.index-content-right {
+  position: relative;
+  width: 290px;
+  float: right;
+}
+.index-righttab .tabnav {
+  position: relative;
+  border-bottom: 2px solid #ebebeb;
+}
+.index-righttab .tabnav .nav li {
+  float: left;
+  height: 42px;
+  line-height: 42px;
+  font-size: 18px;
+  font-weight:600px;
+}
+.index-righttab .tabnav .bar {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100px;
+  height: 2px;
+  background: #4f6da1;
+}
+.index-righttab .tabnav .more {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 64px;
+  height:26px;
+  line-height: 26px;
+  text-align: right;
+}
+.index-righttab .tabnav .more a {
+  color: #687280;
+}
+.index-righttab .list-content {
+  position: relative;
+
+}
+
+.index-righttab .union-height {
+  height: 390px;
+  overflow: hidden;
+}
+
+
+.index-righttab .list-content li {
+  position: relative;
+  padding: 8px 10px;
+}
+.index-righttab .list-content li h3 {
+  padding-left: 27px;
+}
+.index-righttab .list-content li h3 a {
+  display: block;
+  width: 175px;
+  color: #396ec3;
+  font-size: 14px;
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.index-righttab .list-content li .mark {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  width: 21px;
+  height: 18px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  background: url(../images/index_page.png) no-repeat 0 -26px;
+}
+.index-righttab .sell-list {
+  border: 1px solid #ebebeb;
+  border-top: 0;
+}
+
+.index-righttab .list-content li .second {
+  background: url(../images/index_page.png) no-repeat 0 -54px;
+}
+
+.index-righttab .list-content li .third {
+  background: url(../images/index_page.png) no-repeat 0 -82px;
+}
+.index-righttab .list-content li .bookinfo {
+
+  position: relative;
+  padding: 8px 0 0 27px;
+}
+.index-righttab .list-content li .bookinfo .cover {
+  float: left;
+  padding-right: 10px;
+}
+.index-righttab .list-content li .bookinfo .cover  a {
+  display: block;
+  width: 50px;
+
+}
+.index-righttab .list-content li .bookinfo .cover  img {
+  width: 50px;
+  height: 71px;
+}
+.index-righttab .list-content li .bookinfo .info {
+  float: left;
+}
+.index-righttab .list-content li .bookinfo .info .author {
+  color: #666;
+}
+.index-righttab .list-content li .bookinfo .info .star-num {
+  margin: 7px 0 10px;
+  height: 18px;
+}
+.index-righttab .list-content li .bookinfo .info .star-num .star {
+  float: left;
+}
+.index-righttab .list-content li .bookinfo .info .star-num .star i {
+  display: block;
+  float: left;
+  margin-top: 3px;
+  width: 10px;
+  height: 10px;
+  background: url(../images/starlevel.jpg) left -20px no-repeat;
+}
+.index-righttab .list-content li .bookinfo .info .star-num .star .has{
+  background: url(../images/starlevel.jpg) left top no-repeat;
+}
+.index-righttab .list-content li .bookinfo .info .star-num .nums {
+  float: left;
+  color: #666;
+}
+.index-righttab .list-content li .bookinfo .info .price {
+  color: #ccc;
+  font-size: 14px;
+}
+.index-righttab .list-content li .bookinfo .info .price .now {
+  color: #000;
+}
+.index-righttab .list-content li .bookinfo .info .price .original {
+  color: #999;
+  text-decoration: line-through;
+}
+.index-righttab .list-content .nopic  {
+  padding: 8px 10px;
+}
+.index-righttab .list-content .nopic .mark {
+  color: #666;
+  line-height: 20px;
+  vertical-align: middle;
+  background: none;
+}
+.index-righttab .list-content .nopic h3 a{
+  color: #666;
+}
+.index-righttab .list-content .nopic span {
+  float: right;
+  color: #ff4606;
+}
+.index-content-right .padg {
+  padding-top: 30px;
+}
+.index-adbigcell {
+  padding: 30px 0;
+  background: url(../images/bigadd_bg.png) no-repeat;
+}
+.index-adbigcell li {
+  float: left;
+  margin-left: 14px;
+  width: 280px;
+  height: 120px;
+
+}
+.index-adbigcell li a {
+  display: block;
+
+}
+.index-adbigcell li img {
+  width: 280px;
+  border-radius: 10px;
+}
+
+/* 榜单开始 */
+.padingtop30 {
+  padding-top: 30px;
+}
+.eddindex-content .index-subnav .nav li  {
+  float: left;
+  height: 42px;
+  line-height: 42px;
+  font-size: 18px;
+}
+.eddindex-content .index-subnav .nav li  a {
+  display: block;
+  float: left;
+  padding: 0 20px;
+  background: url(../images/line.jpg) 0 13px no-repeat;
+}
+.eddindex-content .index-subnav .nav .first a {
+  background: none;
+  padding-left: 0;
+}
+.eddindex-content .index-subnav .bar {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 74px;
+  height: 2px;
+  background: #4f6da1;
+}
+.eddindex-content .index-subnav .nav .on {
+  font-weight: 700px;
+}
+.eddindex-content .pdfbooks  .bar {
+  width: 92px;
+}
+.index-channel {
+  padding-bottom: 35px;
+}
+.index-channel  .innerwrap {
+  width: 1220px;
+  overflow: hidden;
+}
+
+.index-channel  .innerwrap li {
+  position: relative;
+  float: left;
+  width: 588px;
+  margin: 10px 20px 0 0;
+  border: 1px solid #ebebeb;
+  background: #fff;
+}
+.index-channel  .innerwrap li .cover {
+  position: relative;
+  float: left;
+  width: 115px;
+  height: 115px;
+  border-right: 1px solid #ebebeb;
+}
+.index-channel  .innerwrap li .cover img {
+  width: 115px;
+  height: 115px;
+}
+.index-channel  .innerwrap li .des {
+  float: left;
+  width: 430px;
+  padding: 0 10px 0 30px;
+}
+.index-channel  .innerwrap li .des .name {
+  padding: 25px 0 20px;
+  width:  300px;
+  color: #444;
+  font-size: 16px;
+
+}
+
+.index-channel  .innerwrap li .des .comment {
+  color: $666;
+  font-size: 14px;
+  line-height: 22px;
+
+}
+.index-channel  .innerwrap li .subscription {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  color: #699ef1;
+}
+.index-channel  .innerwrap li .subscription a {
+  position: relative;
+  float: right;
+  padding: 2px 15px 2px 22px;
+  color: #fff;
+  background: #699ef1;
+  border-radius: 10px;
+  text-align: center;
+}
+.index-channel  .innerwrap li .subscription span {
+  float: right;
+  padding-right: 6px;
+}
+.index-channel  .innerwrap li .subscription a b {
+  position: absolute;
+  top:1px;
+  left: 11px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: normal;
+}
+.hotbar {
+  margin-left: -20px;
+  overflow: hidden;
+}
+.hotbar li {
+  position: relative;
+  float: left;
+  width: 385px;
+  height: 130px;
+  margin: 20px 0 0 20px;
+  overflow: hidden;
+}
+.hotbar li .cover {
+  position: relative;
+  float: left;
+  width: 130px;
+  height: 130px;
+  border 1px solid #ebebeb;
+}
+.hotbar li .cover img {
+  width: 130px;
+  height: 130px;
+}
+.hotbar li .des {
+  position: relative;
+  float: left;
+  width: 230px;
+  padding-left: 20px;
+}
+.hotbar li .des .name {
+  height: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.hotbar li .des .comment {
+  margin: 10px 0;
+  height: 44px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hotbar li .des .subscription a {
+position: relative;
+display: block;
+width: 72px;
+padding: 2px 0 2px 8px;
+color: #fff;
+background: #699ef1;
+border-radius: 10px;
+text-align: center;
+}
+.hotbar li .des .subscription a b{
+  position: absolute;
+  top:0px;
+  left: 15px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: normal;
+}
+.eddpublic-foot-module {
+  margin-top: 80px;
+  padding-top: 26px;
+  border-top: 1px solid #ebebeb;
+}
+.eddpublic-foot-module .inner {
+  margin-left: -20px;
+  overflow: hidden;
+}
+.eddpublic-foot-module li {
+  position: relative;
+  float: left;
+  width: 252px;
+  margin-left: 100px;
+  padding: 2px 0 0 52px;
+  background: url(../images/footer_share.jpg) no-repeat top left;
+  background-size: 40px 40px;
+  overflow: hidden;
+}
+.eddpublic-foot-module li .title {
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+}
+.eddpublic-foot-module li .des {
+  height: 20px;
+  line-height: 20px;
+  color: #666;
+  font-size: 14px;
+
+}
+.eddpublic-foot-module li .sharelink {
+height: 34px;
+line-height: 34px;
+font-size: 12px;
+color: #666;
+}
+.eddpublic-foot-module li .link {
+  position: relative;
+  height: 34px;
+  line-height: 34px;
+
+}
+.eddpublic-foot-module li .weibo i {
+  float: left;
+  width: 34px;
+  height: 34px;
+  padding-right: 10px;
+  background: url(../images/common.png) no-repeat 0 -336px;
+}
+.eddpublic-foot-module li .weixin i {
+  float: left;
+  width: 34px;
+  height: 34px;
+  padding-right: 10px;
+  background: url(../images/common.png) no-repeat 0 -380px;
+}
+.eddpublic-foot-module li .join {
+  margin: 20px 0 30px;
+  width: 110px;
+}
+.eddpublic-foot-module li .join  a {
+  display: block;
+  border: 1px solid #918f8f;
+  text-align: center;
+  height: 22px;
+  line-height: 22px;
+}
+.eddpublic-foot-module li .join i {
+  display: inline-block;
+  width: 11px;
+  height: 24px;
+  margin-left: 2px;
+  overflow: hidden;
+  background: url(../images/footer_btn_arrow.png) no-repeat 0 -1px;
+  vertical-align: middle;
+}
+.public_footermes_module {
+  margin-top: 60px;
+  padding: 15px 0 60px;
+  border-top: 1px solid #ebebeb;
+  font-size: 12px;
+  line-height: 26px;
+  color: #666;
+  text-align: center;
+}
+.public_footermes_module .sep {
+  display: inline-block;
+  padding: 0 12px 0 10px;
+}
